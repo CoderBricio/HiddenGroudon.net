@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Rubik+80s+Fade&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1C1C1C;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.emailclass{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 39%;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+   width: 20%;
+   height: 5%;
+}
+
+.emailclass:hover{
+    border-color: red;
+    border-width: 2px;
+    transition: 0.2s;
+}
+
+
+.emailclass:active ,.emailclass:focus{
+   outline: 0;
+}
+
+
+.senhaclass{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 39%;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+   width: 20%;
+   height: 5%;
+
+}
+
+.senhaclass:hover{
+    border-color: red;
+    border-width: 2px;
+    transition: 0.2s;
+}
+
+.senhaclass:active, .senhaclass:focus{
+    outline: 0;
+
+}
+
+.EmailTitle{
+    position: absolute;
+    margin-left: 39%;
+    color: white;
+    margin-top: 14%;
+}
+
+.SenhaTitle{
+    position: absolute;
+    margin-left: 39%;
+    color: white;
+    margin-top: 22%;
+}
+
+
+
+
+
+.Btn{
+    position: absolute;
+    color: white;
+    width: 11%;
+    height: 9%;
+    margin-left: 43.5%;
+    margin-top: 32%;
+    cursor: pointer;
+    z-index: 99;
+    border-radius: 10px;
+    background: red;
+    border: none;
+    
+
+}
+
+@keyframes GroudonAnimation{
+    from{margin-top:32%;}
+    to{margin-top: 29%;}
+}
+
+
+.alerta{
+    position: absolute;
+    font-size: 150%;
+    color: red;
+    margin-left: 43%;
+    margin-top: 38%;
+}
+
+
+
+.TituloPrincipal{
+    font-size: 300%;
+    position: absolute;
+    color: red;
+    margin-left: 35%;
+    margin-top: 4%;
+    text-shadow: 0px 0 10px red;
+}
+
+.Groudon1{
+    position: absolute;
+    width: 4%;
+    margin-left: 48%;
+    margin-top: 32%;
+    z-index: 98;
+    animation: GroudonAnimation 1s ease-in-out infinite alternate
+}
+
+.Alerta{
+    position: absolute;
+    color: white;
+    margin-top: 39%;
+    margin-left: 29%;
+    color: #FF0000;
+    font-size: 20px;
+}
+
+

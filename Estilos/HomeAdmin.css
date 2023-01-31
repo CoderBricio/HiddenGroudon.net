@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.cabeçalho{
+    height: 70px;
+    width: 100%;
+    
+    background-color: #2e2d2d;
+}
+
+body{
+    background-color: #1C1C1C;
+
+}
+
+
+
+.hidden{
+    z-index: 99;
+    position: absolute;
+    width: 5%;
+    height: 8%;
+    background-color: #2e2d2d;
+    margin-left: 90%;
+    margin-top: 1%;
+}
+
+.hidden:hover{
+    transition: 2s;
+    opacity:0.100;
+	-moz-opacity: 0.100;
+	filter: alpha(opacity=65);
+
+}
+
+.hiddengroudon{
+position: absolute;
+width: 4%;
+margin-left: 90%;
+
+}
+
+.BtnVoltar{
+    position: absolute;
+    width: 10%;
+    height: 7vh;
+    margin-top: 1%;
+    margin-left: 3%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.QtdAssinantes{
+    position: absolute;
+    color: white;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#quantidadeAssinantes{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 12%;
+    color: white;
+    font-size: 40px;
+}
+
+.lcrMensal{
+    position: absolute;
+    color: white;
+    margin-left: 80%;
+    margin-top: 1%;
+
+}
+
+#Lucro{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 85%;
+    color: white;
+    font-size: 40px;
+}
+
+.btn{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 15%;
+    height: 10vh;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn2{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 80%;
+    width: 15%;
+    height: 10vh;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.Tabela{
+    position: relative;
+    margin-top: 30%;
+    margin-left: 25%;
+    width: 50%;
+    height: 80vh;
+    background-color: #2e2d2d;
+    color: white;
+    animation: bordaAnimation 2s ease-in-out infinite alternate;
+    
+}
+
+@keyframes bordaAnimation{
+    from{border: 1px solid #800000;}
+    to{border: 1px solid red;}
+}
+
+
+
+
+.Cliente1{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.Cliente1Assinatura{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 60%;
+}
+
+.Cliente2{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 2%;
+}
+
+.Cliente2Assinatura{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 60%;
+}
+
+.Cliente3{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 2%;
+}
+
+.Cliente3Assinatura{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 60%;
+}
